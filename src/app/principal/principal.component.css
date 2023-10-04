@@ -8,13 +8,14 @@
 
 body {
     background-color: #080202;
-    font-family: "Poppins", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* background-color: #0d0d0d; */
+    max-width: 1550px;
+    margin: 0 auto; 
+}
+a{
+    color: blueviolet;
 }
 
 .swiper-button-prev::after{
@@ -273,10 +274,11 @@ body {
     width: 50%;
 }
 .info-img img {
-    width: 500px;
-    height: 800px;
-    border-radius: 50px 0px;
+    width: 562px;
+    height: 516px;
+    border-radius: 55px;
 }
+
 
 .info-txt{
     width: 50%;
@@ -351,6 +353,7 @@ body {
     padding: 100px 0px;
     display: flex;
     justify-content: space-between;
+    background-color: #0d0d0d;
 }
 
 .links h4 {
@@ -480,21 +483,22 @@ body {
     width: auto;
 }
 .image4 img{
-    max-width: 22.5%;
-    max-height: 22.5%;
+    max-width: 20.5%;
+    max-height: 20.5%;
     height: auto;
     width: auto;
 }
 
 .img-block img {
     position: relative;
-    right: -462px;
-    top: -241px;
+    right: -544px;
+    top: -319px;
 }
+
 .img-block2 img {
     position: relative;
-    right: -908px;
-    top: -496px;
+    right: -1035px;
+    top: -648px;
 }
 
 
@@ -614,6 +618,80 @@ body {
 }
 
 
+
+
+.Buttom {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background: #333;
+    border: none;
+    color: #fff;
+  }
+  
+  .Buttom:hover {
+    letter-spacing: 0.25em;
+    background: blueviolet;
+    color: blueviolet;
+    box-shadow: 0 0 45px blueviolet;
+  }
+  
+  .Buttom::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222222;
+  }
+  
+  .Buttom span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .Buttom i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  .Buttom i::before {
+    content: '';
+    position: absolute;
+    border: 2px solid blueviolet;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  .Buttom:hover i::before {
+    width: 20px;
+    left: 20%;
+  }
+  
+  .Buttom i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid blueviolet;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  .Buttom:hover i::after {
+    width: 20px;
+    left: 80%;
+  }
 
 
 
